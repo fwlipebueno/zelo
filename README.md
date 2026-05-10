@@ -90,8 +90,8 @@ The project was designed to be validated using:
 - João Victor Angelim — résumé: `curriculo-joao.html`
 
 ### Links
-- GitHub repository: pending
-- GitHub Pages: pending
+- GitHub repository: https://github.com/fwlipebueno/zelo
+- GitHub Pages: https://fwlipebueno.github.io/zelo/
 - Presentation video: pending
 
 ---
@@ -181,6 +181,6 @@ O projeto foi estruturado para validação nos seguintes validadores:
 - João Victor Angelim — currículo: `curriculo-joao.html`
 
 ### Links
-- Repositório GitHub: pendente
-- GitHub Pages: pendente
+- Repositório GitHub: https://github.com/fwlipebueno/zelo
+- GitHub Pages: https://fwlipebueno.github.io/zelo/
 - Vídeo de apresentação: pendente
