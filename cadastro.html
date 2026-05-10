@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | Zelo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="brand" href="index.html" aria-label="Página inicial do Zelo">
+        <img src="assets/logo.svg" alt="" class="brand-logo">
+        <span>Zelo</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="index.html#sobre">Sobre</a>
+        <a href="index.html#pilares">Pilares</a>
+        <a href="index.html#campanhas">Campanhas</a>
+        <a href="index.html#recursos">Recursos</a>
+      </nav>
+
+      <a class="nav-action" href="login.html">Entrar</a>
+    </header>
+
+    <main class="form-page">
+      <section class="form-card">
+        <header class="section-header">
+          <span class="eyebrow">Participar</span>
+          <h1>Cadastro de interesse</h1>
+          <p>
+            Formulário do projeto acadêmico em HTML e CSS. Ao enviar, o usuário
+            segue para a página de login.
+          </p>
+        </header>
+
+        <form action="login.html" method="get">
+          <label for="full-name">Nome completo</label>
+          <input type="text" id="full-name" name="nome" autocomplete="name" required>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+
+          <label for="password">Senha</label>
+          <input type="password" id="password" name="senha" autocomplete="new-password" required>
+
+          <label for="neighborhood">Cidade ou bairro</label>
+          <input type="text" id="neighborhood" name="localidade" required>
+
+          <label for="interest">Área de interesse</label>
+          <select id="interest" name="interesse" required>
+            <option value="">Selecione uma opção</option>
+            <option value="alimentacao">Alimentação equilibrada</option>
+            <option value="atividade-fisica">Atividade física</option>
+            <option value="prevencao">Prevenção e campanhas</option>
+            <option value="bem-estar-emocional">Bem-estar emocional</option>
+          </select>
+
+          <label for="message">Mensagem ou objetivo pessoal</label>
+          <textarea id="message" name="mensagem" rows="5" required></textarea>
+
+          <button class="button primary-button" type="submit">Enviar cadastro</button>
+        </form>
+
+        <p class="form-links">
+          Já possui acesso? <a href="login.html">Entrar</a>.
+          Voltar para <a href="index.html">a página principal</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer class="page-footer compact-footer">
+      <p>Zelo — Saúde e bem-estar para a comunidade.</p>
+      <a href="index.html">Voltar ao início</a>
+    </footer>
+  </body>
+</html>

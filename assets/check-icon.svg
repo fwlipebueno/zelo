@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-labelledby="title desc">
+  <title id="title">Confirmação</title>
+  <desc id="desc">Ícone de confirmação.</desc>
+  <circle cx="24" cy="24" r="22" fill="#dff4e8"/>
+  <path d="m14 24 7 7 14-16" fill="none" stroke="#1f8a5b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240" role="img" aria-labelledby="title desc">
+  <title id="title">Saúde emocional</title>
+  <desc id="desc">Pessoa tranquila com formas suaves ao redor.</desc>
+  <rect width="320" height="240" rx="24" fill="#edf7f1"/>
+  <circle cx="160" cy="74" r="34" fill="#d98f68"/>
+  <path d="M105 178c7-42 27-64 55-64s48 22 55 64Z" fill="#246b9f"/>
+  <path d="M94 150c-21-18-29-39-23-62 27 4 43 20 47 48Z" fill="#1f8a5b"/>
+  <path d="M226 150c21-18 29-39 23-62-27 4-43 20-47 48Z" fill="#1f8a5b"/>
+  <path d="M128 67c14-22 38-26 63-12" stroke="#146242" stroke-width="8" stroke-linecap="round"/>
+  <path d="M89 195h142" stroke="#146242" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="80" cy="58" r="15" fill="#f5c75c"/>
+  <circle cx="250" cy="76" r="13" fill="#ffffff"/>
+</svg>

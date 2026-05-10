@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="300" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
+  <title id="title">Comunidade</title>
+  <desc id="desc">Grupo de pessoas reunidas em uma atividade comunitária.</desc>
+  <rect width="420" height="300" rx="28" fill="#edf7f1"/>
+  <circle cx="98" cy="104" r="30" fill="#f3b781"/>
+  <circle cx="210" cy="78" r="34" fill="#d98f68"/>
+  <circle cx="322" cy="105" r="30" fill="#f3b781"/>
+  <path d="M54 222c6-51 22-78 44-78s38 27 44 78Z" fill="#246b9f"/>
+  <path d="M154 224c7-64 27-98 56-98s49 34 56 98Z" fill="#1f8a5b"/>
+  <path d="M278 222c6-51 22-78 44-78s38 27 44 78Z" fill="#f5c75c"/>
+  <path d="M96 157c31 33 72 50 114 50s83-17 114-50" fill="none" stroke="#146242" stroke-width="10" stroke-linecap="round"/>
+  <path d="M78 246h264" stroke="#146242" stroke-width="9" stroke-linecap="round"/>
+  <path d="M56 62h54" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M300 55h64" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+</svg>

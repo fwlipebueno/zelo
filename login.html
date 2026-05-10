@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Zelo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="brand" href="index.html" aria-label="Página inicial do Zelo">
+        <img src="assets/logo.svg" alt="" class="brand-logo">
+        <span>Zelo</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="index.html#inicio">Início</a>
+        <a href="index.html#sobre">Sobre</a>
+        <a href="index.html#campanhas">Campanhas</a>
+      </nav>
+
+      <a class="nav-action" href="cadastro.html">Cadastrar</a>
+    </header>
+
+    <main class="form-page">
+      <section class="form-card small-form">
+        <header class="section-header">
+          <span class="eyebrow">Acesso</span>
+          <h1>Login</h1>
+          <p>
+            Tela de acesso do projeto. O botão de
+            entrada direciona para a página principal.
+          </p>
+        </header>
+
+        <form action="index.html" method="get">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+
+          <label for="password">Senha</label>
+          <input type="password" id="password" name="senha" autocomplete="current-password" required>
+
+          <button class="button primary-button" type="submit">Entrar</button>
+        </form>
+
+        <p class="form-links">
+          Ainda não participa? <a href="cadastro.html">Fazer cadastro</a>.
+          Voltar para <a href="index.html">a página principal</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer class="page-footer compact-footer">
+      <p>Zelo — Saúde e bem-estar para a comunidade.</p>
+      <a href="index.html">Voltar ao início</a>
+    </footer>
+  </body>
+</html>

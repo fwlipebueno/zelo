@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240" role="img" aria-labelledby="title desc">
+  <title id="title">Alimentação equilibrada</title>
+  <desc id="desc">Prato com frutas, folhas e alimentos saudáveis.</desc>
+  <rect width="320" height="240" rx="24" fill="#edf7f1"/>
+  <circle cx="160" cy="128" r="74" fill="#ffffff" stroke="#d8e7dd" stroke-width="8"/>
+  <path d="M104 128a56 56 0 0 1 56-56v56Z" fill="#1f8a5b"/>
+  <path d="M160 72a56 56 0 0 1 56 56h-56Z" fill="#f5c75c"/>
+  <path d="M216 128a56 56 0 0 1-56 56v-56Z" fill="#246b9f"/>
+  <path d="M160 128v56a56 56 0 0 1-56-56Z" fill="#d98f68"/>
+  <circle cx="103" cy="66" r="22" fill="#f15f5f"/>
+  <path d="M108 44c10-16 24-19 40-8-13 7-26 9-40 8Z" fill="#1f8a5b"/>
+  <path d="M238 79c-20-22-15-45 14-58 17 25 12 46-14 58Z" fill="#1f8a5b"/>
+  <path d="M72 188h176" stroke="#146242" stroke-width="8" stroke-linecap="round"/>
+</svg>

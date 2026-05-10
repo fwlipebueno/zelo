@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240" role="img" aria-labelledby="title desc">
+  <title id="title">Atividade física</title>
+  <desc id="desc">Pessoa caminhando ao ar livre.</desc>
+  <rect width="320" height="240" rx="24" fill="#edf7f1"/>
+  <circle cx="248" cy="54" r="24" fill="#f5c75c"/>
+  <path d="M54 184c45-48 87-56 128-24 32 25 62 23 102-8v54H54Z" fill="#dff4e8"/>
+  <circle cx="151" cy="65" r="25" fill="#d98f68"/>
+  <path d="M136 98h45l-10 62h-49Z" fill="#246b9f"/>
+  <path d="M140 110c-26 16-44 37-55 65" stroke="#246b9f" stroke-width="14" stroke-linecap="round"/>
+  <path d="M178 110c23 17 45 26 68 27" stroke="#246b9f" stroke-width="14" stroke-linecap="round"/>
+  <path d="M137 158l-34 47" stroke="#146242" stroke-width="16" stroke-linecap="round"/>
+  <path d="M166 158l37 47" stroke="#146242" stroke-width="16" stroke-linecap="round"/>
+  <path d="M50 205h220" stroke="#1f8a5b" stroke-width="8" stroke-linecap="round"/>
+</svg>
