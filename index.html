@@ -29,10 +29,10 @@
     </header>
 
     <main>
-      <section class="hero" id="inicio">
+      <div class="hero" id="inicio">
         <article class="hero-content">
           <span class="eyebrow">ODS 3 — Saúde e Bem-Estar</span>
-          <h1>Cuidar da saúde começa com informação acessível.</h1>
+          <h1 id="hero-title">Cuidar da saúde começa com informação acessível.</h1>
           <p>
             Zelo reúne conteúdos objetivos, campanhas de prevenção e recursos
             públicos para apoiar hábitos saudáveis na comunidade.
@@ -53,12 +53,12 @@
         <figure class="hero-figure">
           <img src="assets/hero-wellbeing.svg" alt="Pessoas reunidas em uma ação comunitária de bem-estar">
         </figure>
-      </section>
+      </div>
 
-      <section class="content-section" id="sobre">
+      <section class="content-section" id="sobre" aria-labelledby="sobre-title">
         <header class="section-header">
           <span class="eyebrow">Sobre o projeto</span>
-          <h2>Informação simples para apoiar escolhas saudáveis.</h2>
+          <h2 id="sobre-title">Informação simples para apoiar escolhas saudáveis.</h2>
           <p>
             O Zelo é uma página web informativa e comunitária voltada à
             promoção de saúde, prevenção e bem-estar. O projeto se conecta ao
@@ -81,13 +81,13 @@
         </article>
       </section>
 
-      <section class="content-section section-soft" id="pilares">
+      <section class="content-section section-soft" id="pilares" aria-labelledby="pilares-title">
         <header class="section-header">
           <span class="eyebrow">Pilares do bem-estar</span>
-          <h2>Pequenas práticas que fortalecem a rotina.</h2>
+          <h2 id="pilares-title">Pequenas práticas que fortalecem a rotina.</h2>
         </header>
 
-        <section class="card-grid four-columns" aria-label="Pilares do bem-estar">
+        <div class="card-grid four-columns">
           <article class="feature-card">
             <img src="assets/healthy-food.svg" alt="Prato com alimentos saudáveis">
             <h3>Alimentação equilibrada</h3>
@@ -123,13 +123,13 @@
               cuidado com o equilíbrio emocional.
             </p>
           </article>
-        </section>
+        </div>
       </section>
 
-      <section class="content-section" id="campanhas">
+      <section class="content-section" id="campanhas" aria-labelledby="campanhas-title">
         <header class="section-header">
           <span class="eyebrow">Campanhas e prevenção</span>
-          <h2>Campanhas simples para prevenção e bem-estar.</h2>
+          <h2 id="campanhas-title">Campanhas simples para prevenção e bem-estar.</h2>
           <p>
             As campanhas abaixo são exemplos acadêmicos de comunicação
             preventiva, sem dados clínicos específicos ou recomendações
@@ -137,7 +137,7 @@
           </p>
         </header>
 
-        <section class="card-grid three-columns" aria-label="Campanhas de prevenção">
+        <div class="card-grid three-columns">
           <article class="campaign-card">
             <img src="assets/prevention.svg" alt="Ícone de prevenção em saúde">
             <h3>Vacinação e prevenção</h3>
@@ -164,13 +164,13 @@
               busca por fontes confiáveis de informação.
             </p>
           </article>
-        </section>
+        </div>
       </section>
 
-      <section class="content-section section-soft" id="recursos">
+      <section class="content-section section-soft" id="recursos" aria-labelledby="recursos-title">
         <header class="section-header">
           <span class="eyebrow">Recursos úteis</span>
-          <h2>Links para aprender mais e participar.</h2>
+          <h2 id="recursos-title">Links para aprender mais e participar.</h2>
         </header>
 
         <ul class="resource-list">
@@ -197,20 +197,20 @@
         </ul>
       </section>
 
-      <section class="participation-section" id="participar">
+      <div class="participation-section" id="participar">
         <figure>
           <img src="assets/community.svg" alt="Comunidade reunida para uma atividade de bem-estar">
         </figure>
         <article>
           <span class="eyebrow">Como participar</span>
-          <h2>Cadastre-se para acompanhar conteúdos e ações comunitárias.</h2>
+          <h2 id="participar-title">Cadastre-se para acompanhar conteúdos e ações comunitárias.</h2>
           <p>
             O cadastro registra o interesse em acompanhar campanhas, hábitos
             saudáveis e recursos de apoio divulgados pelo projeto.
           </p>
           <a class="button primary-button" href="cadastro.html">Fazer cadastro</a>
         </article>
-      </section>
+      </div>
     </main>
 
     <footer class="page-footer">
