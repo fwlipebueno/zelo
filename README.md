@@ -87,7 +87,7 @@ The project was designed to be validated using:
 
 ### Team members
 - Felipe de Almeida Bueno — résumé: `curriculo-felipe.html`
-- João Victor Angelim — résumé: `curriculo-joao.html`
+- João Vitor Angelim Nogueira — résumé: `curriculo-joao.html`
 
 ### Links
 - GitHub repository: https://github.com/fwlipebueno/zelo
@@ -178,7 +178,7 @@ O projeto foi estruturado para validação nos seguintes validadores:
 
 ### Integrantes
 - Felipe de Almeida Bueno — currículo: `curriculo-felipe.html`
-- João Victor Angelim — currículo: `curriculo-joao.html`
+- João Vitor Angelim Nogueira — currículo: `curriculo-joao.html`
 
 ### Links
 - Repositório GitHub: https://github.com/fwlipebueno/zelo
