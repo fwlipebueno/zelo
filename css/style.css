@@ -561,153 +561,120 @@ form .button {
   }
 }
 
-/* # Parte da Página do Currículo do João Vitor */
-
-.cv-page {
-  background: #f7fbf8;
-  color: #21312a;
-  padding: 2rem;
-}
-
-.cv-page main {
-  max-width: 900px;
+.cv-main {
   margin: 0 auto;
+  max-width: 980px;
+  padding: var(--space-2xl) var(--space-lg);
 }
 
-.cv-page #cabecalho-principal {
-  max-width: 900px;
-  margin: 0 auto 1.5rem;
-  padding: 2rem;
-  text-align: center;
-  background: #ffffff;
-  border: 1px solid #d8e7dd;
-  border-radius: 14px;
-  box-shadow: 0 18px 45px rgba(25, 84, 58, 0.12);
+.cv-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-medium);
+  box-shadow: var(--shadow-soft);
+  padding: var(--space-xl);
 }
 
-.cv-page #cabecalho-principal h1 {
-  margin: 0;
-  color: #21312a;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 2.4rem;
-}
-
-.cv-page #cabecalho-principal p {
-  margin: 0.5rem 0 0;
-  color: #146242;
-  font-weight: 700;
-}
-
-.cv-page .container-perfil {
-  display: flex;
+.cv-header {
   align-items: center;
-  gap: 1.5rem;
-  max-width: 900px;
-  margin: 0 auto 1.5rem;
-  padding: 1.5rem;
-  background: #ffffff;
-  border: 1px solid #d8e7dd;
-  border-radius: 14px;
-  box-shadow: 0 18px 45px rgba(25, 84, 58, 0.12);
+  border-bottom: 1px solid var(--color-border);
+  display: grid;
+  gap: var(--space-xl);
+  grid-template-columns: 180px 1fr;
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-xl);
 }
 
-.cv-page .container-perfil figure {
+.cv-photo {
   margin: 0;
-  flex-shrink: 0;
 }
 
-.cv-page img[data-tipo="foto-cv"] {
-  width: 150px;
-  height: 200px;
+.cv-photo img {
+  aspect-ratio: 4 / 5;
+  border: 4px solid var(--color-primary-light);
+  border-radius: var(--radius-medium);
   object-fit: cover;
-  border-radius: 12px;
-  border: 3px solid #1f8a5b;
+  width: 100%;
 }
 
-.cv-page .container-perfil ul {
+.cv-intro h1 {
+  margin-bottom: var(--space-sm);
+}
+
+.cv-intro p {
+  color: var(--color-primary-dark);
+  font-weight: 800;
+}
+
+.cv-section {
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-lg);
+}
+
+.cv-section h2 {
+  color: var(--color-primary-dark);
+  font-size: 1.35rem;
+}
+
+.cv-section h3 {
+  color: var(--color-text);
+  font-size: 1.08rem;
+}
+
+.cv-section strong {
+  color: var(--color-text);
+}
+
+.cv-list {
+  display: grid;
+  gap: var(--space-xs);
+  list-style: none;
   margin: 0;
-  padding-left: 1.2rem;
+  padding: 0;
 }
 
-.cv-page .secao-conteudo {
-  max-width: 900px;
-  margin: 0 auto 1.5rem;
-  padding: 1.5rem;
-  background: #ffffff;
-  border: 1px solid #d8e7dd;
-  border-radius: 14px;
-  box-shadow: 0 18px 45px rgba(25, 84, 58, 0.12);
+.cv-project {
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-md);
 }
 
-.cv-page .secao-conteudo h2 {
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  color: #146242;
-  font-size: 1.3rem;
-  border-bottom: 1px solid #d8e7dd;
+.cv-project + .cv-project {
+  margin-top: var(--space-lg);
 }
 
-.cv-page .secao-conteudo h3 {
-  margin-bottom: 0.3rem;
-  color: #21312a;
-}
-
-.cv-page .projeto {
-  padding: 1rem 0;
-  border-bottom: 1px solid #d8e7dd;
-}
-
-.cv-page .projeto:last-child {
-  border-bottom: none;
-}
-
-.cv-page p,
-.cv-page li {
-  color: #5f7169;
-}
-
-.cv-page strong {
-  color: #21312a;
-}
-
-.cv-page a {
-  color: #146242;
-  font-weight: 700;
-}
-
-.cv-page a:hover {
-  color: #246b9f;
-}
-
-.cv-page .periodo-texto {
-  color: #5f7169;
+.cv-period {
+  color: var(--color-muted);
   font-size: 0.95rem;
 }
 
-.cv-page #rodape-cv {
-  max-width: 900px;
-  margin: 2rem auto 0;
-  padding: 1rem;
-  text-align: center;
-  color: #5f7169;
+.cv-footer {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  justify-content: space-between;
 }
 
-/* Responsivo */
+.cv-footer p {
+  margin: 0;
+}
+
 @media (max-width: 700px) {
-  .cv-page {
-    padding: 1rem;
+  .cv-main {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
   }
 
-  .cv-page #cabecalho-principal h1 {
-    font-size: 1.8rem;
+  .cv-card {
+    padding: var(--space-lg);
   }
 
-  .cv-page .container-perfil {
-    flex-direction: column;
-    text-align: center;
+  .cv-header {
+    grid-template-columns: 1fr;
   }
 
-  .cv-page .container-perfil ul {
-    text-align: left;
+  .cv-photo {
+    max-width: 180px;
   }
 }
