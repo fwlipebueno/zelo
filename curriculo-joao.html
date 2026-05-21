@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo João Victor Angelim | Zelo</title>
+    <title>Curriculum Vitae - João Vitor Angelim Nogueira</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="cv-page">
     <header class="page-header">
       <a class="brand" href="index.html" aria-label="Página inicial do Zelo">
         <img src="assets/logo.svg" alt="" class="brand-logo">
@@ -23,58 +23,166 @@
       </nav>
     </header>
 
-    <main class="resume-page">
-      <article class="resume-card">
-        <header class="resume-header">
-          <span class="eyebrow">Currículo</span>
-          <h1>João Victor Angelim</h1>
-          <p>
-            Integrante do projeto Zelo, desenvolvido na disciplina Programação
-            Web Front-End com foco em saúde, prevenção e bem-estar comunitário.
-          </p>
+    <main class="cv-main">
+      <article class="cv-card">
+        <header class="cv-header">
+          <figure class="cv-photo">
+            <img src="assets/foto-joao.jpg" alt="Foto de João Victor Angelim">
+          </figure>
+          <div class="cv-intro">
+            <span class="eyebrow">Currículo</span>
+            <h1 id="joao-name">João Vitor Angelim Nogueira</h1>
+            <p>Estudante de Engenharia de Computação | Back-end, Cloud & DevOps</p>
+          </div>
         </header>
 
-        <section>
-          <h2>Participação no projeto</h2>
+        <section class="cv-section" aria-labelledby="joao-contato">
+          <h2 id="joao-contato">Contato</h2>
+          <ul class="cv-list">
+            <li>E-mail: <a href="mailto:victornogueira1130@gmail.com">victornogueira1130@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/vitorangn" target="_blank" rel="noopener noreferrer">linkedin.com/in/vitorangn</a></li>
+            <li>GitHub: <a href="https://github.com/VitorAngN" target="_blank" rel="noopener noreferrer">github.com/VitorAngN</a></li>
+            <li>Portfólio: <a href="https://vitorangn.github.io" target="_blank" rel="noopener noreferrer">vitorangn.github.io</a></li>
+            <li>Celular: +55 88 99656-2722</li>
+            <li>Localização: Cornélio Procópio, PR</li>
+          </ul>
+        </section>
+
+        <section class="cv-section" aria-labelledby="joao-resumo">
+          <h2 id="joao-resumo">Resumo Profissional</h2>
           <p>
-            Colaboração na organização do conteúdo e na composição das páginas
-            do projeto, mantendo linguagem clara e navegação simples.
+            Estudante de Engenharia de Computação na UTFPR e Técnico em
+            Informática, buscando oportunidade como Desenvolvedor Back-end
+            Júnior ou Estagiário. Tenho experiência prática na construção de
+            APIs RESTful com Node.js/TypeScript, Go e Java, autenticação JWT,
+            modelagem de bancos relacionais e documentação técnica. Meu
+            diferencial é unir desenvolvimento e operação: além de construir
+            aplicações, venho aplicando Docker, Linux, GitHub Actions e AWS EC2
+            para entender como sistemas são empacotados, testados e executados
+            em ambiente real.
           </p>
         </section>
 
-        <section>
-          <h2>Formação</h2>
-          <p>Disciplina: Programação Web Front-End.</p>
+        <section class="cv-section" aria-labelledby="joao-formacao">
+          <h2 id="joao-formacao">Formação Acadêmica</h2>
+          <p>
+            <strong>Bacharelado em Engenharia de Computação</strong><br>
+            Universidade Tecnológica Federal do Paraná (UTFPR) — Cornélio
+            Procópio, PR<br>
+            <span class="cv-period">Previsão de conclusão: junho de 2027</span>
+          </p>
+          <p>
+            <strong>Técnico em Informática</strong><br>
+            Escola Estadual de Ensino Profissionalizante Venceslau Vieira
+            Batista (EEEP) — Boa Viagem, CE<br>
+            <span class="cv-period">janeiro de 2019 - dezembro de 2021</span>
+          </p>
         </section>
 
-        <section>
-          <h2>Habilidades</h2>
+        <section class="cv-section" aria-labelledby="joao-experiencia">
+          <h2 id="joao-experiencia">Experiência Profissional</h2>
+          <p>
+            <strong>Técnico de TI</strong> — Erivelton Emplacamentos, Boa
+            Viagem, CE<br>
+            <span class="cv-period">agosto de 2020 - janeiro de 2021</span>
+          </p>
           <ul>
-            <li>Organização de conteúdo para páginas web.</li>
-            <li>Comunicação visual em projetos acadêmicos.</li>
-            <li>Atenção à clareza, legibilidade e navegação.</li>
+            <li>Atuei com suporte técnico, manutenção preventiva e corretiva de computadores, redes e softwares.</li>
+            <li>Realizei diagnóstico de falhas e resolução de problemas técnicos no ambiente operacional da empresa.</li>
+            <li>Contribuí para a redução de downtime da equipe por meio de suporte rápido e manutenção preventiva.</li>
           </ul>
         </section>
 
-        <section>
-          <h2>Projetos ou experiências</h2>
+        <section class="cv-section" aria-labelledby="joao-projetos">
+          <h2 id="joao-projetos">Projetos Relevantes</h2>
+
+          <article class="cv-project">
+            <h3>Sistema Corporativo de Helpdesk e Gestão de Chamados</h3>
+            <p><strong>Tecnologias:</strong> Node.js, TypeScript, Express, MySQL, Docker, AWS EC2, GitHub Actions</p>
+            <p>
+              <a href="https://github.com/VitorAngN/helpdesk-system" target="_blank" rel="noopener noreferrer">
+                github.com/VitorAngN/helpdesk-system
+              </a>
+            </p>
+            <ul>
+              <li>Construí uma API REST com Node.js/Express, autenticação JWT/Bcrypt, controle de permissões por perfil e mais de 20 endpoints.</li>
+              <li>Implementei comunicação em tempo real com Socket.io, upload de anexos com Multer, logs de auditoria e métricas de SLA/CSAT.</li>
+              <li>Containerizei a aplicação com Docker/Docker Compose e configurei pipeline de CI com GitHub Actions.</li>
+              <li>Configurei ambiente Linux em AWS EC2 para hospedagem e validação prática de deploy da aplicação.</li>
+            </ul>
+          </article>
+
+          <article class="cv-project">
+            <h3>Sistema de Faturamento em Microsserviços</h3>
+            <p><strong>Tecnologias:</strong> Go, Angular, PostgreSQL, Docker</p>
+            <p>
+              <a href="https://github.com/VitorAngN/invoice-microservices-go" target="_blank" rel="noopener noreferrer">
+                github.com/VitorAngN/invoice-microservices-go
+              </a>
+            </p>
+            <ul>
+              <li>Implementei microsserviços em Go para estoque e faturamento, conectados a PostgreSQL.</li>
+              <li>Configurei ambiente local com Docker Compose, isolando serviços e banco de dados para execução reproduzível.</li>
+              <li>Apliquei retry automático, fallback HTTP 503, transações ACID, rollback e lock atômico para lidar com operações concorrentes.</li>
+              <li>Desenvolvi interface em Angular com RxJS e gerenciamento reativo de estado.</li>
+            </ul>
+          </article>
+
+          <article class="cv-project">
+            <h3>Plataforma Integrada de Segurança Pública</h3>
+            <p><strong>Tecnologias:</strong> React, TypeScript, Google Maps API</p>
+            <p>
+              <a href="https://github.com/VitorAngN/urbanShield" target="_blank" rel="noopener noreferrer">
+                github.com/VitorAngN/urbanShield
+              </a>
+            </p>
+            <ul>
+              <li>Desenvolvi dashboard interativo para monitoramento urbano em tempo real.</li>
+              <li>Implementei cálculo de proximidade com Haversine e integração com mapas para visualização de ocorrências, rotas e despacho de veículos.</li>
+            </ul>
+          </article>
+
+          <article class="cv-project">
+            <h3>CPU Emulator</h3>
+            <p><strong>Tecnologias:</strong> C++</p>
+            <p>
+              <a href="https://github.com/VitorAngN/oldCPUEmulator" target="_blank" rel="noopener noreferrer">
+                github.com/VitorAngN/oldCPUEmulator
+              </a>
+            </p>
+            <ul>
+              <li>Desenvolvi um emulador CHIP-8 em C++ para consolidar fundamentos de arquitetura de computadores.</li>
+              <li>Implementei ciclo Fetch/Decode/Execute, leitura de registradores, timers e gerenciamento de memória simulada.</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="cv-section" aria-labelledby="joao-habilidades">
+          <h2 id="joao-habilidades">Habilidades Técnicas</h2>
           <ul>
-            <li>Zelo — projeto acadêmico sobre ODS 3 e bem-estar comunitário.</li>
-            <li>Participação em atividade prática da disciplina Programação Web Front-End.</li>
+            <li><strong>Back-end:</strong> Node.js, TypeScript, Express, Java, Go, APIs RESTful, JWT, Bcrypt, Postman.</li>
+            <li><strong>Banco de Dados:</strong> PostgreSQL, MySQL, Prisma, modelagem relacional, transações ACID, rollback e lock atômico.</li>
+            <li><strong>Infraestrutura & Ferramentas:</strong> Docker, Docker Compose, Linux, GitHub Actions, AWS EC2, Git/GitHub.</li>
+            <li><strong>Automação & IA:</strong> Python, integração com APIs de IA, automação de scripts e noções básicas de LLMs.</li>
+            <li><strong>Front-end de apoio:</strong> React, Angular, HTML5 e CSS3.</li>
+            <li><strong>Fundamentos:</strong> Programação Orientada a Objetos, Estruturas de Dados, Clean Architecture e documentação técnica.</li>
           </ul>
         </section>
 
-        <section>
-          <h2>Contato</h2>
-          <p>Contato pelo grupo do projeto Zelo.</p>
+        <section class="cv-section" aria-labelledby="joao-idiomas">
+          <h2 id="joao-idiomas">Idiomas</h2>
+          <ul>
+            <li>Português: Nativo</li>
+            <li>Inglês: Avançado — C1</li>
+            <li>Espanhol: Intermediário — B1</li>
+          </ul>
         </section>
 
-        <a class="button secondary-button" href="index.html">Voltar para a página principal</a>
+        <footer class="cv-footer">
+          <p>Curriculum Vitae atualizado em maio de 2026</p>
+          <a class="button secondary-button" href="index.html">Voltar para a página principal</a>
+        </footer>
       </article>
     </main>
-
-    <footer class="page-footer compact-footer">
-      <p>Zelo — Currículo do integrante.</p>
-    </footer>
   </body>
 </html>

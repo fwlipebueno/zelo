@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="cv-page">
     <header class="page-header">
       <a class="brand" href="index.html" aria-label="Página inicial do Zelo">
         <img src="assets/logo.svg" alt="" class="brand-logo">
@@ -23,19 +23,24 @@
       </nav>
     </header>
 
-    <main class="resume-page">
-      <article class="resume-card">
-        <header class="resume-header">
-          <span class="eyebrow">Currículo</span>
-          <h1>Felipe de Almeida Bueno</h1>
-          <p>
-            Desenvolvedor Full Stack | Node.js, TypeScript, JavaScript, React |
-            SQL, APIs REST | Docker
-          </p>
+    <main class="cv-main">
+      <article class="cv-card">
+        <header class="cv-header">
+          <figure class="cv-photo">
+            <img src="assets/foto-felipe.jpg" alt="Foto de Felipe de Almeida Bueno">
+          </figure>
+          <div class="cv-intro">
+            <span class="eyebrow">Currículo</span>
+            <h1 id="felipe-name">Felipe de Almeida Bueno</h1>
+            <p>
+              Desenvolvedor Full Stack | Node.js, TypeScript, JavaScript, React |
+              SQL, APIs REST | Docker
+            </p>
+          </div>
         </header>
 
-        <section>
-          <h2>Resumo profissional</h2>
+        <section class="cv-section" aria-labelledby="felipe-resumo">
+          <h2 id="felipe-resumo">Resumo profissional</h2>
           <p>
             Sou desenvolvedor full stack com experiência prática na construção
             de sistemas para operações reais, unindo backend, frontend,
@@ -53,13 +58,13 @@
           </p>
         </section>
 
-        <section>
-          <h2>ODS que pretendo contribuir</h2>
+        <section class="cv-section" aria-labelledby="felipe-ods">
+          <h2 id="felipe-ods">ODS que pretendo contribuir</h2>
           <p>ODS 3 — Saúde e Bem-Estar.</p>
         </section>
 
-        <section>
-          <h2>Habilidades</h2>
+        <section class="cv-section" aria-labelledby="felipe-habilidades">
+          <h2 id="felipe-habilidades">Habilidades</h2>
           <ul>
             <li>Desenvolvimento Full Stack.</li>
             <li>Node.js, JavaScript e TypeScript.</li>
@@ -70,8 +75,8 @@
           </ul>
         </section>
 
-        <section>
-          <h2>Educação</h2>
+        <section class="cv-section" aria-labelledby="felipe-educacao">
+          <h2 id="felipe-educacao">Educação</h2>
           <ul>
             <li>
               Bacharelado em Engenharia de Computação (Reopção para Engenharia
@@ -84,8 +89,8 @@
           </ul>
         </section>
 
-        <section>
-          <h2>Hobbies</h2>
+        <section class="cv-section" aria-labelledby="felipe-hobbies">
+          <h2 id="felipe-hobbies">Hobbies</h2>
           <ul>
             <li>Academia.</li>
             <li>Spotify.</li>
@@ -95,20 +100,18 @@
           </ul>
         </section>
 
-        <section>
-          <h2>Contato</h2>
+        <section class="cv-section" aria-labelledby="felipe-contato">
+          <h2 id="felipe-contato">Contato</h2>
           <p>E-mail: <a href="mailto:felipe.2003@alunos.utfpr.edu.br">felipe.2003@alunos.utfpr.edu.br</a></p>
           <p>Cidade: Cornélio Procópio - PR</p>
           <p>LinkedIn: <a href="https://www.linkedin.com/in/felipeabueno" target="_blank" rel="noopener noreferrer">linkedin.com/in/felipeabueno</a></p>
           <p>GitHub: <a href="https://github.com/fwlipebueno" target="_blank" rel="noopener noreferrer">github.com/fwlipebueno</a></p>
         </section>
 
-        <a class="button secondary-button" href="index.html">Voltar para a página principal</a>
+        <footer class="cv-footer">
+          <a class="button secondary-button" href="index.html">Voltar para a página principal</a>
+        </footer>
       </article>
     </main>
-
-    <footer class="page-footer compact-footer">
-      <p>Zelo — Currículo do integrante.</p>
-    </footer>
   </body>
 </html>
