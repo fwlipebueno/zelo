@@ -92,7 +92,7 @@ The project was designed to be validated using:
 ### Links
 - GitHub repository: https://github.com/fwlipebueno/zelo
 - GitHub Pages: https://fwlipebueno.github.io/zelo/
-- Presentation video: pending
+- Presentation video: https://youtu.be/K1AGQhs2sNo
 
 ---
 
@@ -183,4 +183,4 @@ O projeto foi estruturado para validação nos seguintes validadores:
 ### Links
 - Repositório GitHub: https://github.com/fwlipebueno/zelo
 - GitHub Pages: https://fwlipebueno.github.io/zelo/
-- Vídeo de apresentação: pendente
+- Vídeo de apresentação: https://youtu.be/K1AGQhs2sNo
